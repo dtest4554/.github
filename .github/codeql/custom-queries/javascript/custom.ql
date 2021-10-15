@@ -1,4 +1,4 @@
 import javascript
 
-from inlinescript c
+from InlineScript c
 select c,"Inline script found"
