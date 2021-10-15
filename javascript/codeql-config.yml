@@ -1,9 +1,0 @@
-
-    name: "Custom CodeQL Config"
-    
-    disable-default-queries: true
-    
-    queries:
-    - uses: security-and-quality
-    - uses: ./.github/codeql/Custom_queries/javascript/queries
-
