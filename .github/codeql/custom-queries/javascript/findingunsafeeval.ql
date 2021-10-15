@@ -14,4 +14,4 @@ import javascript
 
 from CallExpr c
 where c.getCalleeName() = "eval"
-select c
+select c, "Unsafe eval Found"
