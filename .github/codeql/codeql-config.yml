@@ -4,6 +4,3 @@ disable-default-queries: true
 
 queries:
 - uses: ./.github/codeql/custom-queries/javascript
-
-paths:
-- /repo3/
