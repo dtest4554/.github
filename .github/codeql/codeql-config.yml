@@ -6,4 +6,4 @@ queries:
 - uses: ./.github/codeql/custom-queries/javascript
 
 paths:
-- ./dtest4554/repo3
+- /repo3/repo3
