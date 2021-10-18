@@ -40,8 +40,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-      with:
-          repository: dtest4554/repo3
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
@@ -58,6 +56,8 @@ jobs:
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
+      with:
+          repository: dtest4554/repo3
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 https://git.io/JvXDl
