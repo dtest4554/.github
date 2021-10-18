@@ -143,7 +143,7 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v2
           with:
-            repository: dtest4554/repo2
+            repository: dtest4554/repo1
 
         # Initializes the CodeQL tools for scanning.
         - name: Initialize CodeQL
