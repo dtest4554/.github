@@ -37,15 +37,21 @@ jobs:
         # Learn more:
         # https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/configuring-code-scanning#changing-the-languages-that-are-analyzed
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-          repository: dtest4554/repo3
-          +repository: dtest4554/repo2
-
+    repo3:
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+            repository: dtest4554/repo3
+    repo2:
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+            repository: dtest4554/repo2
+ 
     # Initializes the CodeQL tools for scanning.
-    - name: Initialize CodeQL
+      - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
