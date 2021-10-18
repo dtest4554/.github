@@ -4,3 +4,6 @@ disable-default-queries: true
 
 queries:
 - uses: ./.github/codeql/custom-queries/javascript
+
+paths:
+- ./dtest4554/repo3
